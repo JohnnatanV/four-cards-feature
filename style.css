@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
 }
@@ -22,6 +23,64 @@
 
 /* MAIN */
 
+.overall-container {
+  padding: 2.2rem;
+}
+
+/* header */
+.tittle {
+  text-align: center;
+}
+
+.tittle__main-up {
+  font-weight: 200;
+  font-size: 1.55rem;
+  color: var(--Very-Dark-Blue);
+}
+
+.tittle__main-down {
+  font-size: 1.6rem;
+  color: var(--Very-Dark-Blue);
+}
+
+.tittle__support {
+  line-height: 150%;
+  font-size: 1rem;
+  margin-top: 1.4rem;
+  margin-bottom: 4.9rem;
+  color: var(--Grayish-Blue);
+}
+
+/* container */
+
+.card {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(179, 197, 197, 0.5);
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.3rem;
+}
+
+.card__tittle {
+  font-size: 1.5rem;
+  color: var(--Very-Dark-Blue);
+}
+
+.card__text {
+  font-size: 0.9rem;
+  color: var(--Grayish-Blue);
+}
+
+.card__img {
+  width: 3.8rem;
+  margin-top: 2rem;
+  align-self: flex-end;
+}
+
+.card__supervisor {
+  border-top: 0.3rem solid var(--Cyan);
+}
 /* FOOTER */
 
 .attribution {
